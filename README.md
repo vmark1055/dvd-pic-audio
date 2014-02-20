@@ -28,7 +28,7 @@ line2:Title #2
 Titles for menu created with equals count of vob files from total count of  files.
 
 3. dvd_menu_pic_audio.
-Creating dvd with menu.
+Creating dvd (audio + pic ) with menu.
 Using:
 - put equals count of audio files and picture files into 'audio' and 'pic' directories;
 - put audio file (audio for menu) and picture file (menu pic) into 'menu/audio' and 'menu/pic' directories;
@@ -41,3 +41,21 @@ Title #3
 - run decode_and_menu_and_dvd.sh.
 Titles for menu created with equals count of vob files from total count of  files.
 Script create_dvd_xml.sh is designed for creating DVD after manual correcting of  jumping to title in menu (as you like :) ).
+
+4. dvd_menu_video
+Creating dvd video with menu.
+Using:
+- put video files into 'video' directorie;
+- put audio file (audio for menu) and picture file (menu pic) into 'menu/audio' and 'menu/pic' directories;
+- write menu's title to menu.txt, look like:
+
+Title #1
+Title #2
+Title #3
+
+- run decode_and_menu_and_dvd.sh.
+Titles for menu created with equals count of vob files from total count of  files.
+Script create_dvd_xml.sh is designed for creating DVD after manual correcting of  jumping to title in menu (as you like :) ).
+
+
+5. Split audio file using original cue file

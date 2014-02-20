@@ -114,7 +114,7 @@ STEP="DECODE:";
 echo "$MESSAGE_TXT $STEP ...... resizing pictures."
 for i in "$PIC/*.*";
 do
-    mogrify -resize 720x480 "$i";
+    mogrify -resize $SIZE "$i";
 #echo "resize $i"
 done; 
 
